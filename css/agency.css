@@ -175,7 +175,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Helvetica,Arial,cursive;
+    text-transform: uppercase;
+    font-weight: bold;
     color: #fed136;
 }
 
@@ -206,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -261,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+/*header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -273,6 +275,18 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
 
 header .intro-text {
     padding-top: 100px;
@@ -287,6 +301,19 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -294,6 +321,21 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
 }
 
 @media(min-width:768px) {
@@ -317,6 +359,58 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+}*/
+
+header {
+    text-align: center;
+    color: #fff;
+
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
     }
 }
 
