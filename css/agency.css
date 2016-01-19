@@ -174,6 +174,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+.navbar-right{
+  color: #ffad33;
+}
+
 .navbar-default .navbar-brand {
     font-family: Helvetica,Arial,cursive;
     text-transform: uppercase;
@@ -222,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #ffad33;
+    color: #fff;
     background-color: #fed136;
 }
 
