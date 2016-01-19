@@ -174,10 +174,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
-.navbar-right li a{
-  color: #ffad33 !important;
-}
-
 .navbar-default .navbar-brand {
     font-family: Helvetica,Arial,cursive;
     text-transform: uppercase;
@@ -215,7 +211,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #ffad33;
 }
 
 .navbar-default .nav li a:hover,
