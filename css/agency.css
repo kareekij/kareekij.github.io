@@ -211,7 +211,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #ffad33;
+    color: rgba(146, 107, 124, 0.74);
 }
 
 .navbar-default .nav li a:hover,
