@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-right li a{
-  color: #ffad33;
+  color: #ffad33 !important;
 }
 
 .navbar-default .navbar-brand {
