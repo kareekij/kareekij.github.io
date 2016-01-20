@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 .text-muted {
@@ -374,6 +374,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 header .container {
@@ -388,8 +389,9 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:full-width;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -397,7 +399,29 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+#publication .row p{
+    font-size: 15px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align:justify;
+}
+
+@media(min-width:100px) {
+    #publication {
+        padding: 50px 30px 50px 30px;
+    }
+}
+
+.port_footer{
+  background-color: white;
+  margin:15px;
+}
+
+.port_footer .row div h3{
+  font-size: 15px !important;
+
 }
 
 @media(min-width:768px) {
@@ -436,7 +460,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        /*padding: 150px 0;*/
     }
 }
 
@@ -959,4 +983,16 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.timeline-image .text{
+
+  text-align:center;
+  font-size: 1em;
+}
+
+@media(min-width:300px) {
+  .timeline-image .text {
+        padding-top: -1px;
+    }
 }
