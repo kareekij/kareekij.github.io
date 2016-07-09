@@ -991,6 +991,21 @@ body {
   font-size: 1em;
 }
 
+li.new a{
+  color: #6666ff !important;
+  font-weight: bolder !important;
+}
+
+li.new a:hover, li.new a:focus{
+  color: #ff5c33 !important;
+  font-weight: 700 !important;
+}
+
+li.new a sup{
+  font-weight:normal !important;
+  color: #ff5c33 !important;
+}
+
 @media(min-width:300px) {
   .timeline-image .text {
         padding-top: -1px;
